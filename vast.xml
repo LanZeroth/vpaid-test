@@ -1,0 +1,26 @@
+<VAST version="3.0">
+  <Ad>
+    <InLine>
+      <AdSystem>VPAID Test</AdSystem>
+      <AdTitle>GitHub VPAID Data Capture</AdTitle>
+      <Error><![CDATA[https://webhook.site/79d88a40-f23d-49d5-9915-5c2a4c1bb433?vast_error]]></Error>
+      <Impression><![CDATA[https://webhook.site/79d88a40-f23d-49d5-9915-5c2a4c1bb433?vast_impression]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://webhook.site/79d88a40-f23d-49d5-9915-5c2a4c1bb433?tracking_start]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://webhook.site/79d88a40-f23d-49d5-9915-5c2a4c1bb433?tracking_complete]]></Tracking>
+            </TrackingEvents>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="application/javascript" apiFramework="VPAID" width="640" height="360">
+                <![CDATA[https://cdn.jsdelivr.net/gh/LanZeroth/vpaid-test@main/vpaid.js]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
